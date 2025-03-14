@@ -1,0 +1,11 @@
+Cluster: Grid-like Organization
+
+Description: Plans that follow a grid pattern with clear horizontal and vertical connections, ensuring efficient circulation.
+
+Images in this cluster:
+- cultural_center_2.png
+- cultural_center_4.png
+- cultural_center_5.png
+- cultural_center_6.png
+- cultural_center_8.png
+- cultural_center_9.png

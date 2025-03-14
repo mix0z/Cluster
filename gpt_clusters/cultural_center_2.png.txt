@@ -1,0 +1,16 @@
+1. **Number and Arrangement of Main Volumes:**
+   - There are four main functional spaces represented by blue volumes. 
+   - These spaces are arranged in two rows, with two volumes in the top row and two in the bottom row.
+
+2. **Horizontal Connections:**
+   - Gold lines represent the horizontal connections, linking the blue volumes horizontally.
+   - These corridors facilitate movement between adjacent main spaces in both rows.
+
+3. **Position and Role of Supporting Functions:**
+   - The pink volumes, indicating supporting functions, are located centrally among the main volumes.
+   - These are placed to provide easy access to support services for all main functional spaces.
+
+4. **Overall Spatial Organization and Circulation:**
+   - The red elements, which are vertical connections, are centrally located, allowing easy access between different levels of the plan.
+   - The spatial organization is efficient, with clear pathways via corridors, ensuring smooth circulation.
+   - Centralized support functions and vertical connections optimize functionality and accessibility within the structure.

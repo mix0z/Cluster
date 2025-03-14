@@ -1,0 +1,11 @@
+Cluster: Centralized Hub
+
+Description: Plans featuring a central main volume surrounded by supporting functions and horizontal connections radiating outward.
+
+Images in this cluster:
+- cultural_center_1.png
+- cultural_center_15.png
+- cultural_center_23.png
+- cultural_center_25.png
+- cultural_center_62.png
+- cultural_center_81.png

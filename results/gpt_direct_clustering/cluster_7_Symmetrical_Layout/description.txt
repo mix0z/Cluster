@@ -1,0 +1,11 @@
+Cluster: Symmetrical Layout
+
+Description: Plans that exhibit symmetry in the arrangement of main volumes and supporting functions, promoting balance.
+
+Images in this cluster:
+- cultural_center_20.png
+- cultural_center_21.png
+- cultural_center_24.png
+- cultural_center_30.png
+- cultural_center_32.png
+- cultural_center_39.png

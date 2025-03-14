@@ -1,0 +1,13 @@
+[
+  {
+    "run_name": "gpt_direct_vision_clustering",
+    "feature_extractor": "gpt_direct_vision",
+    "openai_api_key": "",
+    "gpt_model": "gpt-4o-2024-08-06",
+    "max_clusters": 8,
+    "batch_size": 20,
+    "cluster_instruction": "You are an expert in architectural analysis. Analyze these architectural plans with color-coded elements:\n- Blue volumes represent main functional spaces\n- Pink volumes are supporting functions\n- Gold lines are horizontal connections (corridors, etc.)\n- Red elements are vertical connections (stairs, elevators)\n\nCluster these plans based on their topological similarities, focusing on:\n1. Overall spatial layout and organization\n2. Number and arrangement of main volumes\n3. Circulation patterns and connectivity\n4. Relationship between main and supporting functions\n\nFor each cluster:\n1. Provide a descriptive name that captures the key architectural characteristic\n2. Give a detailed explanation of why these plans belong together, discussing their shared topological features\n3. Explain how this cluster differs from others you've identified\n4. Analyze the architectural significance of this typology\n\nBefore finalizing your clusters, carefully reason through your decisions. Consider alternative groupings and explain why your final clustering is optimal. Provide your comprehensive thought process along with the final clustering results.\n\nFormat your response as JSON with this structure:\n```json\n{\n  \"clusters\": [\n    {\n      \"name\": \"Cluster name\",\n      \"description\": \"Detailed description of cluster characteristics\",\n      \"reasoning\": \"Your detailed reasoning for why these images form a coherent cluster\",\n      \"images\": [\"filename1.png\", \"filename2.png\", ...]\n    },\n    ...\n  ],\n  \"analysis_process\": \"Your step-by-step thought process for developing these clusters\"\n}\n```",
+    "folder_path": "Clustering",
+    "save_plots": true
+  }
+] 

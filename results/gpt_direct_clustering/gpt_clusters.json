@@ -1,0 +1,98 @@
+{
+  "clusters": [
+    {
+      "name": "Linear Organization",
+      "description": "Plans characterized by a linear arrangement of main volumes with clear horizontal connections facilitating movement.",
+      "images": [
+        "cultural_center_11.png",
+        "cultural_center_12.png",
+        "cultural_center_16.png",
+        "cultural_center_19.png",
+        "cultural_center_29.png",
+        "cultural_center_41.png",
+        "cultural_center_44.png",
+        "cultural_center_73.png"
+      ]
+    },
+    {
+      "name": "Centralized Hub",
+      "description": "Plans featuring a central main volume surrounded by supporting functions and horizontal connections radiating outward.",
+      "images": [
+        "cultural_center_1.png",
+        "cultural_center_15.png",
+        "cultural_center_23.png",
+        "cultural_center_25.png",
+        "cultural_center_62.png",
+        "cultural_center_81.png"
+      ]
+    },
+    {
+      "name": "Clustered Arrangement",
+      "description": "Plans with multiple main volumes grouped in clusters, often with supporting functions interspersed among them.",
+      "images": [
+        "cultural_center_13.png",
+        "cultural_center_17.png",
+        "cultural_center_22.png",
+        "cultural_center_37.png",
+        "cultural_center_49.png",
+        "cultural_center_56.png",
+        "cultural_center_67.png"
+      ]
+    },
+    {
+      "name": "Radial Configuration",
+      "description": "Plans that exhibit a radial or circular arrangement of main volumes, promoting movement around a central point.",
+      "images": [
+        "cultural_center_40.png",
+        "cultural_center_50.png",
+        "cultural_center_68.png",
+        "cultural_center_81.png"
+      ]
+    },
+    {
+      "name": "Irregular Layout",
+      "description": "Plans with irregularly shaped main volumes and non-linear connections, emphasizing a more organic flow.",
+      "images": [
+        "cultural_center_14.png",
+        "cultural_center_18.png",
+        "cultural_center_26.png",
+        "cultural_center_28.png",
+        "cultural_center_34.png",
+        "cultural_center_65.png"
+      ]
+    },
+    {
+      "name": "Grid-like Organization",
+      "description": "Plans that follow a grid pattern with clear horizontal and vertical connections, ensuring efficient circulation.",
+      "images": [
+        "cultural_center_2.png",
+        "cultural_center_4.png",
+        "cultural_center_5.png",
+        "cultural_center_6.png",
+        "cultural_center_8.png",
+        "cultural_center_9.png"
+      ]
+    },
+    {
+      "name": "L-Shaped Configuration",
+      "description": "Plans featuring an L-shaped arrangement of main volumes, often with supporting functions along the edges.",
+      "images": [
+        "cultural_center_3.png",
+        "cultural_center_64.png",
+        "cultural_center_72.png"
+      ]
+    },
+    {
+      "name": "Symmetrical Layout",
+      "description": "Plans that exhibit symmetry in the arrangement of main volumes and supporting functions, promoting balance.",
+      "images": [
+        "cultural_center_20.png",
+        "cultural_center_21.png",
+        "cultural_center_24.png",
+        "cultural_center_30.png",
+        "cultural_center_32.png",
+        "cultural_center_39.png"
+      ]
+    }
+  ]
+}

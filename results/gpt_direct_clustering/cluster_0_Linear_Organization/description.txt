@@ -1,0 +1,13 @@
+Cluster: Linear Organization
+
+Description: Plans characterized by a linear arrangement of main volumes with clear horizontal connections facilitating movement.
+
+Images in this cluster:
+- cultural_center_11.png
+- cultural_center_12.png
+- cultural_center_16.png
+- cultural_center_19.png
+- cultural_center_29.png
+- cultural_center_41.png
+- cultural_center_44.png
+- cultural_center_73.png

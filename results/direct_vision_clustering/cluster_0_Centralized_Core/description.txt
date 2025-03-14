@@ -1,0 +1,12 @@
+Cluster: Centralized Core
+
+Description: These plans feature a centralized core space surrounded by secondary spaces. The primary area is typically large and open, with secondary spaces distributed around it, creating a hub-and-spoke layout.
+
+Reasoning: The plans in this cluster have a dominant central space (often in blue) that acts as the focal point. Secondary spaces (in red and purple) are arranged around this core, facilitating a radial circulation pattern. This layout promotes easy access to the central area from various points.
+
+Images in this cluster:
+- cultural_center_1.png
+- cultural_center_11.png
+- cultural_center_12.png
+- cultural_center_13.png
+- cultural_center_19.png

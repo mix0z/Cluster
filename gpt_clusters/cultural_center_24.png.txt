@@ -1,0 +1,18 @@
+1. **Number and Arrangement of Main Volumes**
+   - There are four blue volumes representing the main functional spaces. 
+   - These are distributed around the periphery of the plan, creating distinct sections that likely have specific functions.
+
+2. **Horizontal Connections**
+   - Gold lines represent horizontal connections, linking the various main volumes.
+   - These corridors primarily create a network through the central axis of the plan, ensuring each main space is accessible.
+
+3. **Position and Role of Supporting Functions**
+   - The pink volumes are scattered throughout the plan, situated adjacent to the main blue spaces.
+   - Their placement suggests roles as auxiliary spaces like restrooms, storage, or mechanical rooms, supporting the primary functions nearby.
+
+4. **Overall Spatial Organization and Circulation**
+   - The plan features a central circulation spine with horizontal connections that facilitate movement between the different functional areas.
+   - Red elements, indicating vertical connections such as stairs and elevators, are strategically placed within the core of the plan, ensuring accessibility across multiple levels.
+   - The layout emphasizes connectivity, with supporting functions enhancing the utility of the main volumes and ensuring smooth and efficient circulation.
+
+This topology suggests a focus on functionality and accessibility, with a clear division between primary and secondary spaces to enhance logistical flow.

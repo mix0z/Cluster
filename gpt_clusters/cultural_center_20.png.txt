@@ -1,0 +1,21 @@
+This architectural plan consists of several interconnected elements with distinct color-coding:
+
+1. **Number and Arrangement of Main Volumes:**
+   - The plan features two primary blue volumes representing the main functional spaces. 
+   - These volumes are positioned parallel to each other, with one on the lower section and the other in the upper right section of the plan.
+
+2. **Horizontal Connections:**
+   - Gold lines act as corridors linking the main volumes.
+   - The horizontal connection in the lower section extends from the left side of the space, connecting it to the rest, while in the upper section, it links central areas within the space.
+
+3. **Position and Role of Supporting Functions:**
+   - Pink volumes indicate supporting functions.
+   - In the lower section, the pink volume is placed adjacent to the main volume on the left.
+   - In the upper section, the pink volume is centrally located between the main volume and horizontal connections, providing immediate support.
+
+4. **Overall Spatial Organization and Circulation:**
+   - The plan exhibits a linear organization with clear separation between functional and supporting spaces.
+   - Circulation is facilitated by horizontal corridors linking main volumes, ensuring fluid movement throughout.
+   - Vertical connections (red elements) are strategically placed at intersections between functional spaces and supporting areas, enabling efficient transition between different levels.
+
+Overall, the diagram presents a structured arrangement enabling easy navigation through main and auxiliary areas via well-placed horizontal and vertical connections.

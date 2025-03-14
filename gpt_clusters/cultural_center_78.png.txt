@@ -1,0 +1,23 @@
+Here's a description based on the architectural plan:
+
+1. **Number and Arrangement of Main Volumes**:
+   - There are three main blue volumes present.
+   - They are arranged linearly along a diagonal axis, occupying a triangular plan.
+   - The configuration allows each main space to be adjacent to others, promoting functional adjacency.
+
+2. **Horizontal Connections**:
+   - The gold lines, representing corridors, run through the center of the plan.
+   - These corridors link all main functional spaces linearly, ensuring easy circulation between them.
+   - The central placement of the corridors maximizes accessibility to each space.
+
+3. **Position and Role of Supporting Functions**:
+   - The pink volumes are strategically placed throughout the plan.
+   - They are located at both ends and between the main volumes, serving as buffers and support zones.
+   - These supporting functions are likely intended to provide additional facilities necessary for the main spaces.
+
+4. **Overall Spatial Organization and Circulation**:
+   - The layout is efficient, with a clear axis of movement provided by the central corridor.
+   - The mix of pink and blue volumes ensures that supporting functions are readily accessible from main spaces.
+   - The design emphasizes straightforward circulation through the horizontal corridors, with vertical connections (red elements) dispersed for easy access between different levels.
+
+Overall, the plan is organized to balance functional requirements with efficient circulation, enhancing interaction and accessibility between various spaces.

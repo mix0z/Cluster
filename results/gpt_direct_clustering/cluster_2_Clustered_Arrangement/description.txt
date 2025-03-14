@@ -1,0 +1,12 @@
+Cluster: Clustered Arrangement
+
+Description: Plans with multiple main volumes grouped in clusters, often with supporting functions interspersed among them.
+
+Images in this cluster:
+- cultural_center_13.png
+- cultural_center_17.png
+- cultural_center_22.png
+- cultural_center_37.png
+- cultural_center_49.png
+- cultural_center_56.png
+- cultural_center_67.png

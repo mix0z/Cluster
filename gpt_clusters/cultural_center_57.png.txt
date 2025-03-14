@@ -1,0 +1,20 @@
+The architectural plan features the following topological characteristics:
+
+1. **Number and Arrangement of Main Volumes**:
+   - There are three blue volumes, indicating the main functional spaces. 
+   - They are positioned in a linear arrangement, side by side.
+
+2. **Horizontal Connections**:
+   - Gold lines, representing corridors, connect these main volumes.
+   - The corridors run horizontally along the top, providing access to each main space.
+
+3. **Position and Role of Supporting Functions**:
+   - There are two pink volumes integrated within the main area layout.
+   - These supporting functions are located between the main spaces, suggesting a role in facilitating services or utilities adjacent to primary activities.
+
+4. **Overall Spatial Organization and Circulation**:
+   - The plan features a straightforward layout with a focus on efficient linear circulation.
+   - Vertical connections (red lines) are strategically placed to ensure accessibility, enhancing movement between different levels.
+   - Supporting functions positioned between main volumes suggest accessibility to necessary services without disrupting primary activities.
+
+Overall, the design is efficient with clear delineation between main and supporting spaces, promoting ease of movement and functional organization.

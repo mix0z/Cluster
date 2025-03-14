@@ -1,0 +1,65 @@
+{
+  "clusters": [
+    {
+      "name": "Centralized Core",
+      "description": "These plans feature a centralized core space surrounded by secondary spaces. The primary area is typically large and open, with secondary spaces distributed around it, creating a hub-and-spoke layout.",
+      "reasoning": "The plans in this cluster have a dominant central space (often in blue) that acts as the focal point. Secondary spaces (in red and purple) are arranged around this core, facilitating a radial circulation pattern. This layout promotes easy access to the central area from various points.",
+      "images": [
+        "cultural_center_1.png",
+        "cultural_center_11.png",
+        "cultural_center_12.png",
+        "cultural_center_13.png",
+        "cultural_center_19.png"
+      ]
+    },
+    {
+      "name": "Linear Sequence",
+      "description": "These plans exhibit a linear organization where spaces are arranged in a sequence along a central axis or corridor. This layout emphasizes a clear directional flow from one end to the other.",
+      "reasoning": "The linear arrangement is evident through the elongated form of the plans, with spaces aligned along a central path. This configuration supports a straightforward circulation pattern, guiding movement from one end to the other.",
+      "images": [
+        "cultural_center_2.png",
+        "cultural_center_14.png",
+        "cultural_center_18.png",
+        "cultural_center_20.png",
+        "cultural_center_22.png"
+      ]
+    },
+    {
+      "name": "Clustered Modules",
+      "description": "These plans consist of distinct modules or clusters of spaces, often with irregular boundaries. The modules are interconnected, creating a network of spaces with multiple access points.",
+      "reasoning": "The modular nature of these plans is characterized by distinct clusters of spaces, often with varied shapes and sizes. This layout allows for flexibility in circulation and use, with multiple pathways connecting the clusters.",
+      "images": [
+        "cultural_center_3.png",
+        "cultural_center_15.png",
+        "cultural_center_16.png",
+        "cultural_center_21.png",
+        "cultural_center_23.png"
+      ]
+    },
+    {
+      "name": "Open Plan with Peripheral Circulation",
+      "description": "These plans feature large open spaces with circulation paths primarily located along the periphery. This configuration allows for unobstructed central areas with clear boundary circulation.",
+      "reasoning": "The open central spaces are surrounded by peripheral pathways, allowing for easy movement around the edges while keeping the central area open and flexible. This layout supports diverse activities within the central space.",
+      "images": [
+        "cultural_center_4.png",
+        "cultural_center_5.png",
+        "cultural_center_6.png",
+        "cultural_center_24.png",
+        "cultural_center_25.png"
+      ]
+    },
+    {
+      "name": "Radial Symmetry",
+      "description": "These plans exhibit radial symmetry, with spaces arranged symmetrically around a central point. This layout emphasizes balance and equal access to the central area.",
+      "reasoning": "The radial symmetry is evident in the balanced arrangement of spaces around a central point, creating a harmonious and organized layout. This configuration supports equal access and distribution of spaces.",
+      "images": [
+        "cultural_center_7.png",
+        "cultural_center_8.png",
+        "cultural_center_9.png",
+        "cultural_center_10.png",
+        "cultural_center_17.png"
+      ]
+    }
+  ],
+  "analysis_process": "The analysis involved examining the spatial organization, circulation patterns, and hierarchical relationships within each plan. Key factors included the arrangement of primary and secondary spaces, the flow of movement, and the overall configuration. Plans were grouped based on shared organizational principles, focusing on fundamental spatial patterns rather than superficial similarities."
+}

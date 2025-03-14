@@ -1,0 +1,12 @@
+Cluster: Open Plan with Peripheral Circulation
+
+Description: These plans feature large open spaces with circulation paths primarily located along the periphery. This configuration allows for unobstructed central areas with clear boundary circulation.
+
+Reasoning: The open central spaces are surrounded by peripheral pathways, allowing for easy movement around the edges while keeping the central area open and flexible. This layout supports diverse activities within the central space.
+
+Images in this cluster:
+- cultural_center_4.png
+- cultural_center_5.png
+- cultural_center_6.png
+- cultural_center_24.png
+- cultural_center_25.png

@@ -1,0 +1,9 @@
+Cluster: Radial Configuration
+
+Description: Plans that exhibit a radial or circular arrangement of main volumes, promoting movement around a central point.
+
+Images in this cluster:
+- cultural_center_40.png
+- cultural_center_50.png
+- cultural_center_68.png
+- cultural_center_81.png

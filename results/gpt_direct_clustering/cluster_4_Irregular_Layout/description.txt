@@ -1,0 +1,11 @@
+Cluster: Irregular Layout
+
+Description: Plans with irregularly shaped main volumes and non-linear connections, emphasizing a more organic flow.
+
+Images in this cluster:
+- cultural_center_14.png
+- cultural_center_18.png
+- cultural_center_26.png
+- cultural_center_28.png
+- cultural_center_34.png
+- cultural_center_65.png

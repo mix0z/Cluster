@@ -1,0 +1,8 @@
+Cluster: L-Shaped Configuration
+
+Description: Plans featuring an L-shaped arrangement of main volumes, often with supporting functions along the edges.
+
+Images in this cluster:
+- cultural_center_3.png
+- cultural_center_64.png
+- cultural_center_72.png

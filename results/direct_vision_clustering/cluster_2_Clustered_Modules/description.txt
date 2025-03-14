@@ -1,0 +1,12 @@
+Cluster: Clustered Modules
+
+Description: These plans consist of distinct modules or clusters of spaces, often with irregular boundaries. The modules are interconnected, creating a network of spaces with multiple access points.
+
+Reasoning: The modular nature of these plans is characterized by distinct clusters of spaces, often with varied shapes and sizes. This layout allows for flexibility in circulation and use, with multiple pathways connecting the clusters.
+
+Images in this cluster:
+- cultural_center_3.png
+- cultural_center_15.png
+- cultural_center_16.png
+- cultural_center_21.png
+- cultural_center_23.png

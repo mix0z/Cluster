@@ -1,0 +1,21 @@
+Based on the architectural plan diagram:
+
+1. **Number and Arrangement of Main Volumes:**
+   - There are five blue volumes representing the main functional spaces.
+   - Two large blue volumes are on the upper level, separated by a horizontal connection.
+   - Three smaller blue volumes are located on the lower part of the plan, with one situated centrally and the others towards the periphery.
+
+2. **Horizontal Connections:**
+   - Gold lines, representing corridors, extend horizontally to connect the volumes.
+   - There is a main horizontal corridor linking the two large blue volumes on the upper part.
+   - Another horizontal connection runs along the lower edge of the plan, connecting the central and peripheral blue volumes.
+
+3. **Position and Role of Supporting Functions:**
+   - Pink volumes are scattered throughout and adjacent to most main volumes.
+   - They act as buffers or transitional spaces between the main volumes. 
+   - Notably, a pink volume is adjacent to the central lower blue volume, indicating a close functional relationship.
+
+4. **Overall Spatial Organization and Circulation:**
+   - The plan is organized in a somewhat linear manner, with main volumes connected efficiently by horizontal corridors.
+   - Vertical connections, indicated by red elements, are strategically placed, providing access across different levels.
+   - The spatial layout promotes ease of movement between main functional spaces, while supporting functions augment the primary activities seamlessly. The arrangement supports both horizontal and vertical circulation effectively, balancing accessibility and functional adjacency.

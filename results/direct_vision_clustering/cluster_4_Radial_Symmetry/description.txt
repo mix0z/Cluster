@@ -1,0 +1,12 @@
+Cluster: Radial Symmetry
+
+Description: These plans exhibit radial symmetry, with spaces arranged symmetrically around a central point. This layout emphasizes balance and equal access to the central area.
+
+Reasoning: The radial symmetry is evident in the balanced arrangement of spaces around a central point, creating a harmonious and organized layout. This configuration supports equal access and distribution of spaces.
+
+Images in this cluster:
+- cultural_center_7.png
+- cultural_center_8.png
+- cultural_center_9.png
+- cultural_center_10.png
+- cultural_center_17.png

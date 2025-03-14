@@ -1,0 +1,15 @@
+[
+  {
+    "run_name": "gpt_direct_clustering",
+    "feature_extractor": "gpt_clustering",
+    "openai_api_key": "",
+    "gpt_model": "gpt-4o-mini",
+    "max_clusters": 8,
+    "use_cache": true,
+    "cache_dir": "gpt_clusters",
+    "description_prompt": "This is an architectural plan diagram with color-coded elements.\n- Blue volumes represent main functional spaces\n- Pink volumes are supporting functions\n- Gold lines are horizontal connections (corridors, etc.)\n- Red elements are vertical connections (stairs, elevators)\n\nDescribe this architectural plan focusing on its topology:\n1. Number and arrangement of main volumes\n2. How horizontal connections link different spaces\n3. Position and role of supporting functions\n4. Overall spatial organization and circulation",
+    "folder_path": "Clustering",
+    "save_plots": true,
+    "batch_size": 10
+  }
+] 

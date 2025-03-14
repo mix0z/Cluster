@@ -1,0 +1,86 @@
+[
+  {
+    "run_name": "clip_umap_hdbscan",
+    "feature_extractor": "clip",
+    "clip_model_name": "laion/CLIP-ViT-L-14-DataComp.XL-s13B-b90K",
+    "dim_reduction_method": "umap",
+    "dim_reduction_components": 2,
+    "cluster_method": "hdbscan",
+    "hdbscan_min_cluster_size": 2,
+    "folder_path": "Clustering",
+    "show_plots": true,
+    "save_plots": true
+  },
+  {
+    "run_name": "resnet18_umap_hdbscan",
+    "feature_extractor": "resnet",
+    "resnet_variant": "resnet18",
+    "dim_reduction_method": "umap",
+    "dim_reduction_components": 2,
+    "cluster_method": "hdbscan",
+    "hdbscan_min_cluster_size": 2,
+    "folder_path": "Clustering",
+    "show_plots": true,
+    "save_plots": true
+  },
+  {
+    "run_name": "resnet34_umap_hdbscan",
+    "feature_extractor": "resnet",
+    "resnet_variant": "resnet34",
+    "dim_reduction_method": "umap",
+    "dim_reduction_components": 2,
+    "cluster_method": "hdbscan",
+    "hdbscan_min_cluster_size": 2,
+    "folder_path": "Clustering",
+    "show_plots": true,
+    "save_plots": true
+  },
+  {
+    "run_name": "resnet50_umap_hdbscan",
+    "feature_extractor": "resnet",
+    "resnet_variant": "resnet50",
+    "dim_reduction_method": "umap",
+    "dim_reduction_components": 2,
+    "cluster_method": "hdbscan",
+    "hdbscan_min_cluster_size": 2,
+    "folder_path": "Clustering",
+    "show_plots": true,
+    "save_plots": true
+  },
+  {
+    "run_name": "resnet101_umap_hdbscan",
+    "feature_extractor": "resnet",
+    "resnet_variant": "resnet101",
+    "dim_reduction_method": "umap",
+    "dim_reduction_components": 2,
+    "cluster_method": "hdbscan",
+    "hdbscan_min_cluster_size": 2,
+    "folder_path": "Clustering",
+    "show_plots": true,
+    "save_plots": true
+  },
+  {
+    "run_name": "clip_pca_hdbscan",
+    "feature_extractor": "clip",
+    "clip_model_name": "laion/CLIP-ViT-L-14-DataComp.XL-s13B-b90K",
+    "dim_reduction_method": "pca",
+    "dim_reduction_components": 2,
+    "cluster_method": "hdbscan",
+    "hdbscan_min_cluster_size": 2,
+    "folder_path": "Clustering",
+    "show_plots": true,
+    "save_plots": true
+  },
+  {
+    "run_name": "resnet50_umap_kmeans",
+    "feature_extractor": "resnet",
+    "resnet_variant": "resnet50",
+    "dim_reduction_method": "umap",
+    "dim_reduction_components": 2,
+    "cluster_method": "kmeans",
+    "kmeans_n_clusters": 5,
+    "folder_path": "Clustering",
+    "show_plots": false,
+    "save_plots": true
+  }
+]

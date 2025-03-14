@@ -1,0 +1,587 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Architectural Floor Plan Clustering Results</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                margin: 0;
+                padding: 20px;
+                background-color: #f5f5f5;
+            }
+            .container {
+                max-width: 1200px;
+                margin: 0 auto;
+                background-color: white;
+                padding: 20px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            }
+            h1 {
+                color: #333;
+                text-align: center;
+                padding-bottom: 10px;
+                border-bottom: 2px solid #eee;
+            }
+            h2 {
+                color: #444;
+                margin-top: 30px;
+                padding-bottom: 5px;
+                border-bottom: 1px solid #eee;
+            }
+            .cluster-card {
+                margin: 20px 0;
+                padding: 15px;
+                background-color: white;
+                border-radius: 5px;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            }
+            .cluster-description {
+                font-style: italic;
+                color: #666;
+                margin-bottom: 15px;
+            }
+            .gallery {
+                text-align: center;
+                margin: 20px 0;
+            }
+            .gallery img {
+                max-width: 100%;
+                height: auto;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            }
+            .image-list {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+                margin-top: 15px;
+            }
+            .image-item {
+                border: 1px solid #eee;
+                border-radius: 4px;
+                padding: 5px;
+                text-align: center;
+                width: 150px;
+            }
+            .image-item img {
+                max-width: 100%;
+                height: auto;
+            }
+            .image-name {
+                font-size: 0.8em;
+                color: #666;
+                margin-top: 5px;
+            }
+            .stats {
+                margin: 20px 0;
+                padding: 15px;
+                background-color: #f9f9f9;
+                border-radius: 5px;
+            }
+            .chart {
+                text-align: center;
+                margin: 30px 0;
+            }
+            .chart img {
+                max-width: 100%;
+                height: auto;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Architectural Floor Plan Clustering Results</h1>
+            
+            <div class="stats">
+                <h2>Cluster Statistics</h2>
+                <p>Total number of clusters: <strong>6</strong></p>
+                <p>Total number of images: <strong>75</strong></p>
+            </div>
+            
+            <div class="chart">
+                <h2>Overview</h2>
+                <img src="cluster_overview.png" alt="Clusters Overview">
+            </div>
+            
+            <div class="chart">
+                <h2>Distribution</h2>
+                <img src="cluster_distribution_pie.png" alt="Cluster Distribution Pie Chart">
+                <img src="cluster_distribution_bar.png" alt="Cluster Distribution Bar Chart">
+            </div>
+    
+            <div class="cluster-card">
+                <h2>Cluster 1: Centralized Courtyard</h2>
+                <div class="cluster-description">Plans featuring a central courtyard with surrounding rooms, providing a clear hierarchy and connection to the outdoors.</div>
+                <p>Number of images: <strong>12</strong></p>
+                
+                <div class="gallery">
+                    <img src="cluster_0_Centralized_Courtyard/gallery_cluster_1.png" alt="Gallery for Cluster 1">
+                </div>
+                
+                <h3>Images in this cluster:</h3>
+                <div class="image-list">
+        
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_2.png" alt="cultural_center_2.png">
+                        <div class="image-name">cultural_center_2.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_25.png" alt="cultural_center_25.png">
+                        <div class="image-name">cultural_center_25.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_30.png" alt="cultural_center_30.png">
+                        <div class="image-name">cultural_center_30.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_36.png" alt="cultural_center_36.png">
+                        <div class="image-name">cultural_center_36.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_41.png" alt="cultural_center_41.png">
+                        <div class="image-name">cultural_center_41.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_47.png" alt="cultural_center_47.png">
+                        <div class="image-name">cultural_center_47.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_52.png" alt="cultural_center_52.png">
+                        <div class="image-name">cultural_center_52.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_58.png" alt="cultural_center_58.png">
+                        <div class="image-name">cultural_center_58.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_63.png" alt="cultural_center_63.png">
+                        <div class="image-name">cultural_center_63.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_69.png" alt="cultural_center_69.png">
+                        <div class="image-name">cultural_center_69.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_74.png" alt="cultural_center_74.png">
+                        <div class="image-name">cultural_center_74.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_8.png" alt="cultural_center_8.png">
+                        <div class="image-name">cultural_center_8.png</div>
+                    </div>
+                
+                </div>
+            </div>
+        
+            <div class="cluster-card">
+                <h2>Cluster 2: Linear Corridor</h2>
+                <div class="cluster-description">Plans with a long central corridor and rooms on either side, allowing for efficient use of space.</div>
+                <p>Number of images: <strong>12</strong></p>
+                
+                <div class="gallery">
+                    <img src="cluster_1_Linear_Corridor/gallery_cluster_2.png" alt="Gallery for Cluster 2">
+                </div>
+                
+                <h3>Images in this cluster:</h3>
+                <div class="image-list">
+        
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_15.png" alt="cultural_center_15.png">
+                        <div class="image-name">cultural_center_15.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_19.png" alt="cultural_center_19.png">
+                        <div class="image-name">cultural_center_19.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_24.png" alt="cultural_center_24.png">
+                        <div class="image-name">cultural_center_24.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_35.png" alt="cultural_center_35.png">
+                        <div class="image-name">cultural_center_35.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_40.png" alt="cultural_center_40.png">
+                        <div class="image-name">cultural_center_40.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_46.png" alt="cultural_center_46.png">
+                        <div class="image-name">cultural_center_46.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_51.png" alt="cultural_center_51.png">
+                        <div class="image-name">cultural_center_51.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_57.png" alt="cultural_center_57.png">
+                        <div class="image-name">cultural_center_57.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_62.png" alt="cultural_center_62.png">
+                        <div class="image-name">cultural_center_62.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_68.png" alt="cultural_center_68.png">
+                        <div class="image-name">cultural_center_68.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_73.png" alt="cultural_center_73.png">
+                        <div class="image-name">cultural_center_73.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_79.png" alt="cultural_center_79.png">
+                        <div class="image-name">cultural_center_79.png</div>
+                    </div>
+                
+                </div>
+            </div>
+        
+            <div class="cluster-card">
+                <h2>Cluster 3: U-Shaped Layout</h2>
+                <div class="cluster-description">Plans with a U-shaped layout and a central courtyard, providing a sense of enclosure and privacy.</div>
+                <p>Number of images: <strong>12</strong></p>
+                
+                <div class="gallery">
+                    <img src="cluster_2_U-Shaped_Layout/gallery_cluster_3.png" alt="Gallery for Cluster 3">
+                </div>
+                
+                <h3>Images in this cluster:</h3>
+                <div class="image-list">
+        
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_20.png" alt="cultural_center_20.png">
+                        <div class="image-name">cultural_center_20.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_26.png" alt="cultural_center_26.png">
+                        <div class="image-name">cultural_center_26.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_31.png" alt="cultural_center_31.png">
+                        <div class="image-name">cultural_center_31.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_37.png" alt="cultural_center_37.png">
+                        <div class="image-name">cultural_center_37.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_42.png" alt="cultural_center_42.png">
+                        <div class="image-name">cultural_center_42.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_48.png" alt="cultural_center_48.png">
+                        <div class="image-name">cultural_center_48.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_53.png" alt="cultural_center_53.png">
+                        <div class="image-name">cultural_center_53.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_59.png" alt="cultural_center_59.png">
+                        <div class="image-name">cultural_center_59.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_64.png" alt="cultural_center_64.png">
+                        <div class="image-name">cultural_center_64.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_7.png" alt="cultural_center_7.png">
+                        <div class="image-name">cultural_center_7.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_75.png" alt="cultural_center_75.png">
+                        <div class="image-name">cultural_center_75.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_80.png" alt="cultural_center_80.png">
+                        <div class="image-name">cultural_center_80.png</div>
+                    </div>
+                
+                </div>
+            </div>
+        
+            <div class="cluster-card">
+                <h2>Cluster 4: Radial and Linear Mix</h2>
+                <div class="cluster-description">Plans combining radial and linear elements, with a central hub for circulation.</div>
+                <p>Number of images: <strong>14</strong></p>
+                
+                <div class="gallery">
+                    <img src="cluster_3_Radial_and_Linear_Mix/gallery_cluster_4.png" alt="Gallery for Cluster 4">
+                </div>
+                
+                <h3>Images in this cluster:</h3>
+                <div class="image-list">
+        
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_14.png" alt="cultural_center_14.png">
+                        <div class="image-name">cultural_center_14.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_16.png" alt="cultural_center_16.png">
+                        <div class="image-name">cultural_center_16.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_21.png" alt="cultural_center_21.png">
+                        <div class="image-name">cultural_center_21.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_27.png" alt="cultural_center_27.png">
+                        <div class="image-name">cultural_center_27.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_32.png" alt="cultural_center_32.png">
+                        <div class="image-name">cultural_center_32.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_38.png" alt="cultural_center_38.png">
+                        <div class="image-name">cultural_center_38.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_43.png" alt="cultural_center_43.png">
+                        <div class="image-name">cultural_center_43.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_49.png" alt="cultural_center_49.png">
+                        <div class="image-name">cultural_center_49.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_54.png" alt="cultural_center_54.png">
+                        <div class="image-name">cultural_center_54.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_6.png" alt="cultural_center_6.png">
+                        <div class="image-name">cultural_center_6.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_65.png" alt="cultural_center_65.png">
+                        <div class="image-name">cultural_center_65.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_70.png" alt="cultural_center_70.png">
+                        <div class="image-name">cultural_center_70.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_76.png" alt="cultural_center_76.png">
+                        <div class="image-name">cultural_center_76.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_81.png" alt="cultural_center_81.png">
+                        <div class="image-name">cultural_center_81.png</div>
+                    </div>
+                
+                </div>
+            </div>
+        
+            <div class="cluster-card">
+                <h2>Cluster 5: Fragmented Layout</h2>
+                <div class="cluster-description">Plans with multiple disconnected sections, allowing for flexibility and adaptability.</div>
+                <p>Number of images: <strong>13</strong></p>
+                
+                <div class="gallery">
+                    <img src="cluster_4_Fragmented_Layout/gallery_cluster_5.png" alt="Gallery for Cluster 5">
+                </div>
+                
+                <h3>Images in this cluster:</h3>
+                <div class="image-list">
+        
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_17.png" alt="cultural_center_17.png">
+                        <div class="image-name">cultural_center_17.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_22.png" alt="cultural_center_22.png">
+                        <div class="image-name">cultural_center_22.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_28.png" alt="cultural_center_28.png">
+                        <div class="image-name">cultural_center_28.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_33.png" alt="cultural_center_33.png">
+                        <div class="image-name">cultural_center_33.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_39.png" alt="cultural_center_39.png">
+                        <div class="image-name">cultural_center_39.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_44.png" alt="cultural_center_44.png">
+                        <div class="image-name">cultural_center_44.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_5.png" alt="cultural_center_5.png">
+                        <div class="image-name">cultural_center_5.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_55.png" alt="cultural_center_55.png">
+                        <div class="image-name">cultural_center_55.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_60.png" alt="cultural_center_60.png">
+                        <div class="image-name">cultural_center_60.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_66.png" alt="cultural_center_66.png">
+                        <div class="image-name">cultural_center_66.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_71.png" alt="cultural_center_71.png">
+                        <div class="image-name">cultural_center_71.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_77.png" alt="cultural_center_77.png">
+                        <div class="image-name">cultural_center_77.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_9.png" alt="cultural_center_9.png">
+                        <div class="image-name">cultural_center_9.png</div>
+                    </div>
+                
+                </div>
+            </div>
+        
+            <div class="cluster-card">
+                <h2>Cluster 6: Centralized Focus</h2>
+                <div class="cluster-description">Plans with a centralized focus, featuring a central area surrounded by rooms.</div>
+                <p>Number of images: <strong>12</strong></p>
+                
+                <div class="gallery">
+                    <img src="cluster_5_Centralized_Focus/gallery_cluster_6.png" alt="Gallery for Cluster 6">
+                </div>
+                
+                <h3>Images in this cluster:</h3>
+                <div class="image-list">
+        
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_18.png" alt="cultural_center_18.png">
+                        <div class="image-name">cultural_center_18.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_23.png" alt="cultural_center_23.png">
+                        <div class="image-name">cultural_center_23.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_29.png" alt="cultural_center_29.png">
+                        <div class="image-name">cultural_center_29.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_34.png" alt="cultural_center_34.png">
+                        <div class="image-name">cultural_center_34.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_4.png" alt="cultural_center_4.png">
+                        <div class="image-name">cultural_center_4.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_45.png" alt="cultural_center_45.png">
+                        <div class="image-name">cultural_center_45.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_50.png" alt="cultural_center_50.png">
+                        <div class="image-name">cultural_center_50.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_56.png" alt="cultural_center_56.png">
+                        <div class="image-name">cultural_center_56.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_61.png" alt="cultural_center_61.png">
+                        <div class="image-name">cultural_center_61.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_67.png" alt="cultural_center_67.png">
+                        <div class="image-name">cultural_center_67.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_72.png" alt="cultural_center_72.png">
+                        <div class="image-name">cultural_center_72.png</div>
+                    </div>
+                
+                    <div class="image-item">
+                        <img src="../Clustering/cultural_center_78.png" alt="cultural_center_78.png">
+                        <div class="image-name">cultural_center_78.png</div>
+                    </div>
+                
+                </div>
+            </div>
+        
+        </div>
+    </body>
+    </html>
+    

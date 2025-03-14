@@ -1,0 +1,72 @@
+[
+  {
+    "run_name": "architectural_features_umap_hdbscan",
+    "feature_extractor": "architectural",
+    "dim_reduction_method": "umap",
+    "dim_reduction_components": 2,
+    "umap_n_neighbors": 10,
+    "umap_min_dist": 0.05,
+    "cluster_method": "hdbscan",
+    "hdbscan_min_cluster_size": 3,
+    "hdbscan_metric": "euclidean",
+    "folder_path": "Clustering",
+    "normalize_features": true,
+    "show_plots": true,
+    "save_plots": true
+  },
+  {
+    "run_name": "combined_features_umap_hdbscan",
+    "feature_extractor": "combined",
+    "clip_model_name": "laion/CLIP-ViT-L-14-DataComp.XL-s13B-b90K",
+    "arch_weight": 0.6,
+    "clip_weight": 0.3,
+    "resnet_weight": 0.1,
+    "dim_reduction_method": "umap",
+    "dim_reduction_components": 2,
+    "umap_n_neighbors": 8,
+    "umap_min_dist": 0.1,
+    "cluster_method": "hdbscan",
+    "hdbscan_min_cluster_size": 3,
+    "folder_path": "Clustering",
+    "normalize_features": true,
+    "show_plots": true,
+    "save_plots": true
+  },
+  {
+    "run_name": "ensemble_clustering",
+    "feature_extractor": "architectural",
+    "dim_reduction_method": "umap",
+    "dim_reduction_components": 2,
+    "umap_n_neighbors": 10,
+    "umap_min_dist": 0.05,
+    "use_ensemble_clustering": true,
+    "ensemble_methods": [
+      {"method": "kmeans", "params": {"n_clusters": 5}},
+      {"method": "agglomerative", "params": {"n_clusters": 6}},
+      {"method": "hdbscan", "params": {"min_cluster_size": 3}}
+    ],
+    "ensemble_weights": [0.4, 0.3, 0.3],
+    "folder_path": "Clustering",
+    "normalize_features": true,
+    "show_plots": true,
+    "save_plots": true
+  },
+  {
+    "run_name": "auto_tune_kmeans",
+    "feature_extractor": "combined",
+    "clip_model_name": "laion/CLIP-ViT-L-14-DataComp.XL-s13B-b90K",
+    "arch_weight": 0.6,
+    "clip_weight": 0.3,
+    "resnet_weight": 0.1,
+    "dim_reduction_method": "umap",
+    "dim_reduction_components": 2,
+    "auto_tune_clustering": true,
+    "cluster_method": "kmeans",
+    "min_clusters": 3,
+    "max_clusters": 12,
+    "folder_path": "Clustering",
+    "normalize_features": true,
+    "show_plots": true,
+    "save_plots": true
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "openai_api_key": "",
+    "run_name": "direct_vision_all_images",
+    "feature_extractor": "gpt_direct_vision",
+    "gpt_model": "gpt-4o-2024-08-06",
+    "batch_size": 80,
+    "folder_path": "Clustering",
+    "save_plots": true,
+    "show_plots": false,
+    "max_tokens": 90000,
+    "temperature": 0.3,
+    "response_format": {"type": "json_object"},
+    "cluster_instruction": "As an expert in architectural analysis, your task is to perform EXTREMELY DETAILED analysis and clustering of architectural floor plans. DO NOT SIMPLIFY. The response MUST be at least 40,000 characters long and use the majority of the available token limit.\n\nPART 1: DETAILED INDIVIDUAL ANALYSIS (THIS MUST BE VERY LONG AND THOROUGH)\nFor each floor plan (from cultural_center_1.png through cultural_center_81.png):\n- Describe in detail its spatial organization and topology\n- Document its main architectural features (circulation, hierarchy, etc.)\n- Note its unique characteristics and how it differs from other plans\n- Compare it with other similar plans, explicitly referencing filenames\n\nYour analysis must be EXTREMELY THOROUGH, discussing EACH IMAGE individually with specific references to file names. This part should comprise at least 75% of your total response length.\n\nPART 2: CLUSTERING\nAfter your detailed analysis, create AT LEAST 8-10 meaningful clusters (DO NOT USE ONLY 5 CLUSTERS):\n- Each cluster should have a distinctive architectural pattern\n- Groups should be based on fundamental spatial organization principles\n- Every image must appear in exactly one cluster\n- Clusters should contain approximately equal numbers of images\n\nYour response MUST strictly follow this JSON format:\n```json\n{\n  \"analysis_process\": \"[YOUR EXTREMELY DETAILED ANALYSIS HERE - MUST BE VERY LONG, DISCUSSING EACH IMAGE]\",\n  \"clusters\": [\n    {\n      \"name\": \"[Distinctive Architectural Pattern Name]\",\n      \"description\": \"[Detailed description of shared characteristics]\",\n      \"reasoning\": \"[Thorough explanation with EXPLICIT FILENAME REFERENCES]\",\n      \"images\": [\"filename1.png\", \"filename2.png\", ...]\n    },\n    ...\n  ]\n}\n```\n\nABSOLUTELY CRITICAL REQUIREMENTS:\n1. Your analysis_process MUST be EXTREMELY LENGTHY AND DETAILED, examining EACH IMAGE thoroughly\n2. You MUST create AT LEAST 8-10 clusters (NOT JUST 5)\n3. Every image must appear in EXACTLY ONE cluster\n4. Your reasoning must EXPLICITLY REFERENCE FILENAMES\n5. Use MOST of the available 90,000 token limit\n\nWARNING: A simplified analysis or basic clustering with just 5 groups is UNACCEPTABLE. Your response should be very long with detailed analysis of each floor plan."
+  }
+] 

@@ -1,0 +1,32 @@
+[
+  {
+    "openai_api_key": "",
+    "run_name": "batch1_direct_vision",
+    "feature_extractor": "gpt_direct_vision",
+    "folder_path": "Clustering",
+    "image_filter": "cultural_center_1.png cultural_center_2.png cultural_center_3.png cultural_center_4.png cultural_center_5.png cultural_center_6.png cultural_center_7.png cultural_center_8.png cultural_center_9.png cultural_center_10.png",
+    "gpt_model": "gpt-4o-2024-08-06",
+    "batch_size": 10,
+    "cluster_instruction": "Cluster these architectural plans based on their spatial organization and layout. Consider the arrangement of spaces, circulation patterns, and overall form. Create 3-5 clusters with clear descriptions."
+  },
+  {
+    "openai_api_key": "",
+    "run_name": "batch2_direct_vision",
+    "feature_extractor": "gpt_direct_vision",
+    "folder_path": "Clustering",
+    "image_filter": "cultural_center_11.png cultural_center_12.png cultural_center_13.png cultural_center_14.png cultural_center_15.png cultural_center_16.png cultural_center_17.png cultural_center_18.png cultural_center_19.png cultural_center_20.png",
+    "gpt_model": "gpt-4o-2024-08-06",
+    "batch_size": 10,
+    "cluster_instruction": "Cluster these architectural plans based on their spatial organization and layout. Consider the arrangement of spaces, circulation patterns, and overall form. Create 3-5 clusters with clear descriptions."
+  },
+  {
+    "openai_api_key": "",
+    "run_name": "batch3_direct_vision",
+    "feature_extractor": "gpt_direct_vision",
+    "folder_path": "Clustering",
+    "image_filter": "cultural_center_21.png cultural_center_22.png cultural_center_23.png cultural_center_24.png cultural_center_25.png cultural_center_26.png cultural_center_27.png cultural_center_28.png cultural_center_29.png cultural_center_30.png",
+    "gpt_model": "gpt-4o-2024-08-06",
+    "batch_size": 10,
+    "cluster_instruction": "Cluster these architectural plans based on their spatial organization and layout. Consider the arrangement of spaces, circulation patterns, and overall form. Create 3-5 clusters with clear descriptions."
+  }
+] 

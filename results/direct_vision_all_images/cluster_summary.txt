@@ -1,0 +1,74 @@
+# Architectural Floor Plan Clustering Summary
+
+## Cluster 1: Centralized Courtyard
+
+**Description:** Plans featuring a central courtyard with surrounding rooms, providing a clear hierarchy and connection to the outdoors.
+
+**Reasoning:** These plans, such as `cultural_center_2.png`, `cultural_center_25.png`, and `cultural_center_30.png`, share a similar spatial organization with a central courtyard.
+
+**Number of Images:** 12
+
+**Images:** cultural_center_2.png, cultural_center_25.png, cultural_center_30.png, cultural_center_36.png, cultural_center_41.png, cultural_center_47.png, cultural_center_52.png, cultural_center_58.png, cultural_center_63.png, cultural_center_69.png, cultural_center_74.png, cultural_center_8.png
+
+--------------------------------------------------
+
+## Cluster 2: Linear Corridor
+
+**Description:** Plans with a long central corridor and rooms on either side, allowing for efficient use of space.
+
+**Reasoning:** These plans, such as `cultural_center_15.png`, `cultural_center_19.png`, and `cultural_center_24.png`, feature a straightforward linear layout.
+
+**Number of Images:** 12
+
+**Images:** cultural_center_15.png, cultural_center_19.png, cultural_center_24.png, cultural_center_35.png, cultural_center_40.png, cultural_center_46.png, cultural_center_51.png, cultural_center_57.png, cultural_center_62.png, cultural_center_68.png, cultural_center_73.png, cultural_center_79.png
+
+--------------------------------------------------
+
+## Cluster 3: U-Shaped Layout
+
+**Description:** Plans with a U-shaped layout and a central courtyard, providing a sense of enclosure and privacy.
+
+**Reasoning:** These plans, such as `cultural_center_20.png`, `cultural_center_26.png`, and `cultural_center_31.png`, share a U-shaped organization.
+
+**Number of Images:** 12
+
+**Images:** cultural_center_20.png, cultural_center_26.png, cultural_center_31.png, cultural_center_37.png, cultural_center_42.png, cultural_center_48.png, cultural_center_53.png, cultural_center_59.png, cultural_center_64.png, cultural_center_7.png, cultural_center_75.png, cultural_center_80.png
+
+--------------------------------------------------
+
+## Cluster 4: Radial and Linear Mix
+
+**Description:** Plans combining radial and linear elements, with a central hub for circulation.
+
+**Reasoning:** These plans, such as `cultural_center_14.png`, `cultural_center_16.png`, and `cultural_center_21.png`, feature a dynamic mix of radial and linear circulation.
+
+**Number of Images:** 14
+
+**Images:** cultural_center_14.png, cultural_center_16.png, cultural_center_21.png, cultural_center_27.png, cultural_center_32.png, cultural_center_38.png, cultural_center_43.png, cultural_center_49.png, cultural_center_54.png, cultural_center_6.png, cultural_center_65.png, cultural_center_70.png, cultural_center_76.png, cultural_center_81.png
+
+--------------------------------------------------
+
+## Cluster 5: Fragmented Layout
+
+**Description:** Plans with multiple disconnected sections, allowing for flexibility and adaptability.
+
+**Reasoning:** These plans, such as `cultural_center_17.png`, `cultural_center_22.png`, and `cultural_center_28.png`, feature a fragmented organization.
+
+**Number of Images:** 13
+
+**Images:** cultural_center_17.png, cultural_center_22.png, cultural_center_28.png, cultural_center_33.png, cultural_center_39.png, cultural_center_44.png, cultural_center_5.png, cultural_center_55.png, cultural_center_60.png, cultural_center_66.png, cultural_center_71.png, cultural_center_77.png, cultural_center_9.png
+
+--------------------------------------------------
+
+## Cluster 6: Centralized Focus
+
+**Description:** Plans with a centralized focus, featuring a central area surrounded by rooms.
+
+**Reasoning:** These plans, such as `cultural_center_18.png`, `cultural_center_23.png`, and `cultural_center_29.png`, have a strong central focus.
+
+**Number of Images:** 12
+
+**Images:** cultural_center_18.png, cultural_center_23.png, cultural_center_29.png, cultural_center_34.png, cultural_center_4.png, cultural_center_45.png, cultural_center_50.png, cultural_center_56.png, cultural_center_61.png, cultural_center_67.png, cultural_center_72.png, cultural_center_78.png
+
+--------------------------------------------------
+

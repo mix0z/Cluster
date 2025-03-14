@@ -1,0 +1,14 @@
+[
+  {
+    "openai_api_key": "",
+    "run_name": "direct_vision_clustering",
+    "feature_extractor": "gpt_direct_vision",
+    "gpt_model": "gpt-4o-2024-08-06",
+    "batch_size": 20,
+    "max_clusters": 8,
+    "folder_path": "Clustering",
+    "cluster_instruction": "You are an expert in architectural analysis tasked with clustering these floor plans based on their spatial organization and design patterns. Carefully analyze the topological structure, organization of spaces, and circulation patterns of each plan. Group them into meaningful clusters based on their fundamental organizational principles.\n\nFor each cluster, you should:\n1. Provide a clear, descriptive name that captures the essence of the organizational pattern\n2. Give a detailed description explaining the shared characteristics\n3. Include thorough reasoning that explains WHY you grouped these specific plans together, citing specific visual evidence\n4. List all the images that belong to this cluster\n\nYour analysis should focus on the FUNDAMENTAL ORGANIZATIONAL PRINCIPLES rather than superficial similarities. Pay special attention to:\n- Overall spatial layout and configuration\n- Relationship between primary and secondary spaces\n- Circulation patterns and flow\n- Hierarchical organization of spaces\n- Boundary conditions and entry sequences\n\nFormulate your response as a JSON object with the following structure:\n```json\n{\n  \"clusters\": [\n    {\n      \"name\": \"Descriptive cluster name\",\n      \"description\": \"Detailed description of the cluster's shared characteristics\",\n      \"reasoning\": \"Thorough explanation of WHY you grouped these plans together with specific visual evidence\",\n      \"images\": [\"image1.png\", \"image2.png\", ...]\n    },\n    ...\n  ],\n  \"analysis_process\": \"A description of your overall analytical approach and reasoning process\"\n}\n```\n\nEvery plan image must be assigned to exactly one cluster. Your clustering should reveal meaningful architectural patterns.",
+    "save_plots": true,
+    "show_plots": false
+  }
+] 
